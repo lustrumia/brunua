@@ -1,0 +1,146 @@
+body{
+	background: $ultra-claro;
+
+	h1, h2, h3, h4, h5, a{
+		font-family: $fuente-titulos;
+	}
+
+	p{
+		font-family: $fuente-texto;
+	}
+}
+
+#navbar{
+	background: none;
+	border: none;
+	margin-top: 60px;
+}
+
+#navitem{
+	margin-right: 30px;
+	:hover{
+		background-color: $medium-dark;
+		color: $ultra-claro;
+	}
+}
+
+.logo{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.carousel{
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+
+#about{
+	background-color: $fondo-claro;
+	text-align: center;
+	padding-top:20px;
+	color: $ultra-claro;
+	overflow: hidden;
+	margin-bottom: 70px;
+
+	h2, p{
+		margin-bottom: 30px;
+	}
+}
+
+#services{
+	background: $claro;
+	color: $ultra-claro;
+
+	article{
+		margin-top: 40px;
+
+		#imgxs{
+			width: 40%;
+		}
+	}
+
+	p{
+		margin-bottom: 30px;
+	}
+}
+
+#sucursales{
+	background: $medium;
+	padding-top:20px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	color: $ultra-claro;
+
+	p{
+		color: $medium-dark;
+	}
+
+	span{
+		font-size: 2em;
+		color: $medium-dark;
+	}
+}
+
+#contacto{
+	background-color: $fondo-oscuro;
+	color: $fondo;
+
+	form, textarea{
+		margin: 30px 0;
+	}
+}
+
+.form-horizontal{
+	margin-left:20px;
+}
+
+footer{
+	margin-top: 40px;
+	padding-top:40px;
+
+	#marca{
+
+		margin-top: 20px;
+	
+		a{
+			color: $medium;
+			text-decoration: none;
+
+			&:hover{
+				color: $fondo-claro;
+				text-decoration: none;
+			}
+		}	
+	}
+}
+#footer{
+	background: $fondo-oscuro;
+	margin-top: 40px;
+
+	address{
+		color: $medium;
+
+		a{
+			color: $medium;
+			text-decoration: none;
+
+			&:hover{
+				color: $fondo-claro;
+				text-decoration: none;
+			}
+		}
+	}
+
+	#redes{
+		margin-top: 20px;
+
+		a{
+			font-size: 2em;
+			padding-right: 25px;
+			color: $medium;
+
+			&:hover{
+				color: $fondo-claro;
+			}
+		}
+	}
+}

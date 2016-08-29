@@ -1,0 +1,105 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+/*PALETA*/
+/*FUENTES*/
+@import "https://fonts.googleapis.com/css?family=Dosis:300,400,700|Montserrat:400,700";
+@import "http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css";
+body {
+  background: #FFF7EC; }
+  body h1, body h2, body h3, body h4, body h5, body a {
+    font-family: "Montserrat", sans-serif; }
+  body p {
+    font-family: "Dosis", sans-serif; }
+
+#navbar {
+  background: none;
+  border: none;
+  margin-top: 60px; }
+
+#navitem {
+  margin-right: 30px; }
+  #navitem :hover {
+    background-color: #EF6548;
+    color: #FFF7EC; }
+
+.logo {
+  text-align: center;
+  margin-bottom: 40px; }
+
+.carousel {
+  margin-top: 70px;
+  margin-bottom: 100px; }
+
+#about {
+  background-color: #D7301F;
+  text-align: center;
+  padding-top: 20px;
+  color: #FFF7EC;
+  overflow: hidden;
+  margin-bottom: 70px; }
+  #about h2, #about p {
+    margin-bottom: 30px; }
+
+#services {
+  background: #FC8D59;
+  color: #FFF7EC; }
+  #services article {
+    margin-top: 40px; }
+    #services article #imgxs {
+      width: 40%; }
+  #services p {
+    margin-bottom: 30px; }
+
+#sucursales {
+  background: #FDBB84;
+  padding-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #FFF7EC; }
+  #sucursales p {
+    color: #EF6548; }
+  #sucursales span {
+    font-size: 2em;
+    color: #EF6548; }
+
+#contacto {
+  background-color: #B30000;
+  color: #FFF7EC; }
+  #contacto form, #contacto textarea {
+    margin: 30px 0; }
+
+.form-horizontal {
+  margin-left: 20px; }
+
+footer {
+  margin-top: 40px;
+  padding-top: 40px; }
+  footer #marca {
+    margin-top: 20px; }
+    footer #marca a {
+      color: #FDBB84;
+      text-decoration: none; }
+      footer #marca a:hover {
+        color: #D7301F;
+        text-decoration: none; }
+
+#footer {
+  background: #B30000;
+  margin-top: 40px; }
+  #footer address {
+    color: #FDBB84; }
+    #footer address a {
+      color: #FDBB84;
+      text-decoration: none; }
+      #footer address a:hover {
+        color: #D7301F;
+        text-decoration: none; }
+  #footer #redes {
+    margin-top: 20px; }
+    #footer #redes a {
+      font-size: 2em;
+      padding-right: 25px;
+      color: #FDBB84; }
+      #footer #redes a:hover {
+        color: #D7301F; }
+
+/*# sourceMappingURL=styles.css.map */
